@@ -11,7 +11,7 @@ def validate_ipv4(string: str):
         return False
     
     for ipv4_part in ipv4_parts:
-        print(ipv4_part, ' part 1')
+        print(ipv4_part, 'part 1')
         if ipv4_part == '':
             return False
         
